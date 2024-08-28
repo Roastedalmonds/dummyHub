@@ -1,16 +1,17 @@
 {
     "schema_version": "https://raw.githubusercontent.com/hubverse-org/schemas/main/v3.0.1/admin-schema.json",
-    "name": "Template Forecast Hub",
-    "maintainer": "Consortium of Infectious Disease Modeling Hubs",
+    "name": "AI 4Casting Hub",
+    "maintainer": "AI 4Casting Hub",
     "contact": {
-        "name": "Joe Bloggs",
-        "email": "j.bloggs@cidmh.com"
+        "name": "Sid Kadam",
+        "email": "skadam@uoguelph.ca"
     },
     "repository": {
         "host": "github",
-        "owner": "hubverse-org",
-        "name": "hubTemplate"
+        "owner": "AI 4Casting Hub",
+        "name": "dummyHub"
     },
-    "file_format": ["csv", "parquet"],
-    "timezone": "US/Eastern"
+    "file_format": ["csv"],
+    "timezone": "US/Eastern",
+    "model_output_dir": "model-output"
 }
