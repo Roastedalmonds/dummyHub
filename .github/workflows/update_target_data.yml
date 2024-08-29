@@ -10,7 +10,7 @@ on:
 
 jobs:
   update_target_data:
-    if: github.repository_owner == 'cdcepi'
+    if: github.repository_owner == 'SiKa9026'
     runs-on: macOS-latest
     steps:    
       - name: Checkout repo
